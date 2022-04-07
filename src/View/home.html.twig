@@ -1,4 +1,17 @@
-<!doctype html>
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+
+    {{ parent() }} - Home
+
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Awesome Website</h1>
+<p>This website really is awesome, don't you think ?</br>Feedback us about how awesome you think this website by writing us an email.</br>You can find the contact email in our awesome footer.</p>
+{% endblock %}
+
+{# <!doctype html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
@@ -11,4 +24,4 @@
 <body>
     <h1>Hello {{ name }} !</h1>
 </body>
-</html>
+</html> #}
